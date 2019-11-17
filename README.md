@@ -9,4 +9,4 @@ This repo shows a base cypress setup that supports the following features:
 
 ---
 
-There are two branches, one that has been setup [without](https://github.com/Full-Stack-HQ/base-cypress-setup/tree/no-cucumber) the use of cucumber and one that has been setup [with]() cucumber.
+There are two branches, one that has been setup [without](https://github.com/Full-Stack-HQ/base-cypress-setup/tree/no-cucumber) the use of cucumber and one that has been setup [with](https://github.com/Full-Stack-HQ/base-cypress-setup/tree/cucumber) cucumber.
