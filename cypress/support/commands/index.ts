@@ -1,1 +1,1 @@
-export * from './search-google-images';
+export * from './search-google';

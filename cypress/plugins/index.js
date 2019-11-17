@@ -8,13 +8,12 @@
 // https://on.cypress.io/plugins-guide
 // ***********************************************************
 
-const typescriptPreprocessor = require('./typescript-preprocess');
+const preprocess = require('./preprocess');
 
 
 module.exports = (on, config) => {
-  
 
-  on('file:preprocessor', typescriptPreprocessor);
+  on("file:preprocessor", preprocess);
 
   const targetEnv = config.env.TARGET_ENV || 'qa';
 
