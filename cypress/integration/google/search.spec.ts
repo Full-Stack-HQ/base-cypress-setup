@@ -1,9 +1,10 @@
 
 describe('When I visit Google', () => {
   beforeEach(() => {
+    cy.visit('/imghp')
   })
 
   it('I should be able to search', () => {
-    cy.searchGoogleImages('cat pictures{enter}')
+    cy.searchGoogle('cat pictures')
   })
 });

@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "cypress:open": "$(npm bin)/cypress open"
+    "cypress:open": "$(npm bin)/cypress open",
+    "cypress:open:prod": "$(npm bin)/cypress open -e TARGET_ENV=prod",
+    "cypress:run:prod": "$(npm bin)/cypress run -e TARGET_ENV=prod"
   },
   "private": true,
   "dependencies": {
